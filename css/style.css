@@ -96,7 +96,7 @@ a.w3_agile_vimeo:hover{
 	color:#fff;
 	font-weight:600;
 	padding:.5em 1em;
-	float:left;
+	float:none;
 }
 .agileits_w3layouts_header_address_grid ul li:nth-child(1){
 	margin:1em 0 0;
