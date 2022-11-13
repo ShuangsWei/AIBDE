@@ -581,6 +581,10 @@ a.w3_agile_vimeo:hover{
 	color:#ef543b;
 	position:relative;
 }
+.w3layouts_header span{
+	font-size: 1.2em;
+    margin-bottom: 10pt;
+}
 .w3layouts_header p:before,.w3layouts_header p:after{
 	content: '';
     background: #212121;
@@ -617,6 +621,7 @@ a.w3_agile_vimeo:hover{
     letter-spacing: 3px;
 }
 .w3layouts_header h5 span{
+    font-size: 1em;
 	color:#212121;
 }
 .w3_services_grids{
@@ -854,7 +859,6 @@ a.w3_agile_vimeo:hover{
 .w3_featured_services_left_gridr h4{
 	font-size:1.2em;
 	color:#ef543b;
-	text-transform:uppercase;
 	letter-spacing:2px;
 }
 .w3_featured_services_left_gridr p{
