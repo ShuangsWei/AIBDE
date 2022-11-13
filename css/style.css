@@ -96,7 +96,7 @@ a.w3_agile_vimeo:hover{
 	color:#fff;
 	font-weight:600;
 	padding:.5em 1em;
-	float:left;
+	/* float:left; */
 }
 .agileits_w3layouts_header_address_grid ul li:nth-child(1){
 	margin:1em 0 0;
@@ -215,7 +215,7 @@ a.w3_agile_vimeo:hover{
     -moz-transition: ease-out 0.3s 0.1s;
     -o-transition: ease-out 0.3s 0.1s;
     -webkit-transition: ease-out 0.3s;
-    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
     transition: ease-out 0.3s 0.1s;
 }
 .w3_agile_nav a span::before {
@@ -246,7 +246,7 @@ a.w3_agile_vimeo:hover{
   -moz-transition: 0.1s 0.2s;
   -o-transition: 0.1s 0.2s;
   -webkit-transition: 0.1s;
-  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
   transition: 0.1s 0.2s;
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
@@ -268,7 +268,7 @@ a.w3_agile_vimeo:hover{
   -moz-transition: 0.1s 0.3s;
   -o-transition: 0.1s 0.3s;
   -webkit-transition: 0.1s;
-  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
   transition: 0.1s 0.3s;
 }
 .w3_agile_nav a::after {
@@ -286,7 +286,7 @@ a.w3_agile_vimeo:hover{
   -moz-transition: 0.1s 0.1s;
   -o-transition: 0.1s 0.1s;
   -webkit-transition: 0.1s;
-  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
   transition: 0.1s 0.1s;
 }
 .w3_agile_nav a:hover {
@@ -312,9 +312,9 @@ a.w3_agile_vimeo:hover{
 	margin:0;
 }
 /*-- //nav --*/
-.banner-slider {
+/* .banner-slider {
 
-}
+} */
 .w3l_banner_info {
 	border: solid 7px rgba(255, 255, 255, 0.67);
     padding: 3em;
@@ -472,7 +472,7 @@ a.w3_agile_vimeo:hover{
   padding: 0;
 }
 .rslides li {
-  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   position: absolute;
   display:none;
   width: 100%;
@@ -1175,7 +1175,7 @@ p.footer-gd {
 	background: #f0f0f0;
 	color: #aaa;
 	font-weight: 400;
-	-webkit-appearance: none; /* for box shadows to show on iOS */
+	appearance: none; /* for box shadows to show on iOS */
 }
 
 .input__field:focus {
