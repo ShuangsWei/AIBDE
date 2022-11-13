@@ -1879,6 +1879,7 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
     height: 400px;
 }
 .w3layouts_header h2 span {
+    font-size: 1em;
     color: #212121;
 }
 /*-- start-responsive-design --*/
